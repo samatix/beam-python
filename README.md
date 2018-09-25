@@ -1,5 +1,4 @@
-# beam-workshop
-Getting Started with an Apache Beam Development Environment
+# Getting Started with an Apache Beam Development Environment
 
 For Java Developers:
 * [Download IntelliJ Community Edition](https://www.jetbrains.com/idea/download)
