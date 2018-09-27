@@ -17,9 +17,12 @@ For Java Developers:
 For Python Developers:
 * [Download PyCharm Community Edition](https://www.jetbrains.com/pycharm/download)
 
-## Open IDE and Checkout from Version Control 
+## Open IDE
 
-Choose **Git** in the dropdown
+On the welcome screen:
+* Select **Checkout from Version Control**
+* Choose **Git** from the dropdown
+
 Enter git repo URL:
 * For Java Developers enter:
   * https://github.com/GoogleCloudPlatform/DataflowTemplates.git
