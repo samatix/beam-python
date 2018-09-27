@@ -122,7 +122,7 @@ def run(argv=None):
                    'number:STRING,created_date:STRING',
             # Creates the table in BigQuery if it does not yet exist.
             create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
-            # Deletes all data in the BigQuery table before writing.
+            # Add to existing rows.
             write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND)))
     p.run().wait_until_finish()
 
