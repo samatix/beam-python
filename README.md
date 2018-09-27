@@ -16,3 +16,12 @@ For Java Developers:
 
 For Python Developers:
 * [Download PyCharm Community Edition](https://www.jetbrains.com/pycharm/download)
+
+## Open IDE and Checkout from Version Control 
+
+Choose **Git** in the dropdown
+Enter git repo URL:
+* For Java Developers enter:
+  * https://github.com/GoogleCloudPlatform/DataflowTemplates.git
+* For Python Developers enter:
+  * https://github.com/danieldeleo/beam-workshop.git
