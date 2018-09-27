@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""data_ingestion.py is a Dataflow pipeline which reads a file and writes its 
+"""data_ingestion.py is a Dataflow pipeline which reads a file and writes its
 contents to a BigQuery table.
-This example does not do any transformation on the data. 
- 
+This example does not do any transformation on the data.
+
 """
 
 from __future__ import absolute_import
@@ -27,22 +27,22 @@ from apache_beam.options.pipeline_options import PipelineOptions
 
 
 class DataIngestion:
-    """A helper class which contains the logic to translate the file into 
+    """A helper class which contains the logic to translate the file into
     a format BigQuery will accept."""
 
     def parse_method(self, string_input):
-        """This method translates a single line of comma separated values to a 
+        """This method translates a single line of comma separated values to a
         dictionary which can be loaded into BigQuery.
-        
+
         Args:
-            string_input: A comma separated list of values in the form of 
+            string_input: A comma separated list of values in the form of
             state_abbreviation,gender,year,name,count_of_babies,dataset_created_date
                 example string_input: KS,F,1923,Dorothy,654,11/28/2016
-        
+
         Returns:
             A dict mapping BigQuery column names as keys to the corresponding value
-            parsed from string_input.  In this example, the data is not transformed, and 
-            remains in the same format as the CSV.  There are no date format transformations. 
+            parsed from string_input.  In this example, the data is not transformed, and
+            remains in the same format as the CSV.  There are no date format transformations.
             example output:
               {'state': 'KS',
                'gender': 'F',
@@ -76,7 +76,7 @@ def run(argv=None):
              'a file in a Google Storage Bucket.',
         # This example file contains a total of only 10 lines.
         # Useful for developing on a small set of data
-        default='gs://python-dataflow-example/data_files/head_usa_names.csv')
+        default='resources/head_usa_names.csv')
     # This defaults to the lake dataset in your bigquery project.  You'll have
     # to create the lake dataset yourself using this command:
     # bq mk lake
@@ -123,7 +123,7 @@ def run(argv=None):
             # Creates the table in BigQuery if it does not yet exist.
             create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
             # Deletes all data in the BigQuery table before writing.
-            write_disposition=beam.io.BigQueryDisposition.WRITE_TRUNCATE)))
+            write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND)))
     p.run().wait_until_finish()
 
 
