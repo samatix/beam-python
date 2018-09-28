@@ -12,10 +12,12 @@
 ## Download IDE (Integrated Development Environment)
 
 For Java Developers:
-* [Download IntelliJ Community Edition](https://www.jetbrains.com/idea/download)
+* [Download/Install IntelliJ Community Edition](https://www.jetbrains.com/idea/download)
+* [Download/Install Java JDK](https://www.oracle.com/technetwork/java/javase/downloads)
+
 
 For Python Developers:
-* [Download PyCharm Community Edition](https://www.jetbrains.com/pycharm/download)
+* [Download/Install PyCharm Community Edition](https://www.jetbrains.com/pycharm/download)
 
 ## Open IDE
 
