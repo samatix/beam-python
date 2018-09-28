@@ -22,9 +22,9 @@ For Python Developers:
 For Developers with only a browser:
 * Clone GitHub repos in cloud shell and use code editor
   * [Shorcut to automatically clone DataflowTemplates](https://console.cloud.google.com/cloudshell/open?git_repo=https%3A%2F%2Fgithub.com%2FGoogleCloudPlatform%2FDataflowTemplates&page=shell)
-    * Alternatively run `git clone https://github.com/GoogleCloudPlatform/DataflowTemplates.git` in cloud shell
+    * Alternatively run: `git clone https://github.com/GoogleCloudPlatform/DataflowTemplates.git` in cloud shell
   * [Shortcut to automatically clone beam-workshop](https://console.cloud.google.com/cloudshell/open?git_repo=https%3A%2F%2Fgithub.com%2Fdanieldeleo%2Fbeam-workshop)
-    * Alternatively run `git clone https://github.com/danieldeleo/beam-workshop.git` in cloud shell
+    * Alternatively run: `git clone https://github.com/danieldeleo/beam-workshop.git` in cloud shell
 
 ## Open IDE
 
