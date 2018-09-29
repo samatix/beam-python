@@ -1,1 +1,2 @@
 apache-beam[gcp]==2.5.0
+google-cloud-dataflow==2.5.0
