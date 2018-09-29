@@ -13,7 +13,8 @@
 
 For Java Developers:
 * [Download/Install IntelliJ Community Edition](https://www.jetbrains.com/idea/download)
-* [Download/Install Java JDK](https://www.oracle.com/technetwork/java/javase/downloads)
+* Download/Install [OpenJDK 8](http://jdk.java.net/8/) or [Java JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 
 
 For Python Developers:
