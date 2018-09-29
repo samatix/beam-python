@@ -31,7 +31,7 @@ For Developers with only a browser:
     
     `git clone https://github.com/danieldeleo/beam-workshop.git`
 
-## Open IDE
+## Launch your IDE
 
 On the welcome screen:
 * Select **Checkout from Version Control**
