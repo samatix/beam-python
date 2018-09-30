@@ -42,3 +42,10 @@ Enter git repo URL:
   * https://github.com/GoogleCloudPlatform/DataflowTemplates.git
 * For Python Developers enter:
   * https://github.com/danieldeleo/beam-workshop.git
+  
+  
+## Running Beam in Cloud Dataflow
+
+Set --runner=DataflowRunner
+
+[More Options](https://cloud.google.com/dataflow/pipelines/specifying-exec-params#setting-other-cloud-pipeline-options)
