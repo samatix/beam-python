@@ -46,7 +46,8 @@ Enter git repo URL:
   
 ## Running Beam in Cloud Dataflow
 
-Set --runner=DataflowRunner
-Set --project=YOUR_PROJECT_ID
+Set the following required pipeline arguments:
+* --runner=DataflowRunner
+* --project=YOUR_PROJECT_ID
 
 [More Dataflow Pipeline Options](https://cloud.google.com/dataflow/pipelines/specifying-exec-params#setting-other-cloud-pipeline-options)
