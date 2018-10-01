@@ -51,3 +51,19 @@ Set the following required pipeline arguments:
 * --project=YOUR_PROJECT_ID
 
 [More Dataflow Pipeline Options](https://cloud.google.com/dataflow/pipelines/specifying-exec-params#setting-other-cloud-pipeline-options)
+
+## Build and Run Beam SDK Examples
+
+Launch IntelliJ and on the welcome screen:
+* Select **Checkout from Version Control**
+* Choose **Git** from the dropdown
+* Enter git repo URL:
+https://github.com/apache/beam.git
+
+### Python
+
+The following commands should be run in the `sdks/python` directory
+* `virtualenv env`
+* `source env/bin/activate`
+* `pip install -e .[gcp,test]`
+
