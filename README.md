@@ -1,5 +1,7 @@
 # Getting Started with an Apache Beam Development Environment
 
+[Link to Slides](https://docs.google.com/presentation/d/1yqZc-FLB3XKrmD9l8Rl6XE_tblIiwX3r8SO7yzNaEDk)
+
 ## Install Cloud SDK
 * (Optional) [Request a Test Google Account](https://goo.gl/forms/di6SDpBFtvqnroSC3)
 * Verify if already installed by typing `gcloud` in bash terminal 
