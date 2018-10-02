@@ -66,5 +66,5 @@ https://github.com/apache/beam.git
 The following commands should be run in the `sdks/python` directory
 * `virtualenv env`
 * `source env/bin/activate`
-* `pip install -e .[gcp,test]`
+* `pip install .[gcp]`
 
